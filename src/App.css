@@ -42,6 +42,26 @@ span.result {
   color: white;
 }
 
+.App-header nav {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  background-color: darkslateblue;
+  font-size: larger;
+}
+
+.App-header nav a[aria-current="page"] {
+  color: blue;
+}
+.App-header nav a {
+  color: white;
+}
+
+.App-header nav a:not(:first-child) {
+  margin-left: 1em;
+}
+
 .App-title {
   font-size: 1.5em;
 }
