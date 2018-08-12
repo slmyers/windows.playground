@@ -2,6 +2,7 @@
   "name": "windows.playground",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://slmyers.github.io/windows.playground/",
   "dependencies": {
     "@material-ui/core": "^1.4.3",
     "@reach/router": "^1.1.1",
@@ -13,7 +14,7 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
-    "build": "react-app-rewired build && mv build docs",
+    "build": "react-app-rewired build && rm -rf docs && mv build docs",
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-app-rewired eject"
   },
